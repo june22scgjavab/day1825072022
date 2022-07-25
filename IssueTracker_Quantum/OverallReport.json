@@ -1,0 +1,68 @@
+{
+  "Structural": {
+    "Model": {
+      "Assignee": [
+        14,
+        0,
+        14
+      ],
+      "IssueReport": [
+        10,
+        0,
+        10
+      ],
+      "IssueStatus": [
+        1,
+        0,
+        1
+      ]
+    },
+    "Service": {
+      "AssigneeServiceImpl": [
+        4,
+        4,
+        0
+      ],
+      "IssueServiceImpl": [
+        6,
+        6,
+        0
+      ]
+    },
+    "Exception": {
+      "IssueTrackerException": [
+        2,
+        2,
+        0
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        5,
+        5,
+        0
+      ]
+    }
+  },
+  "Logical": {
+    "Service": {
+      "AssigneeServiceImpl": [
+        4,
+        0,
+        4
+      ],
+      "IssueServiceImpl": [
+        10,
+        0,
+        10
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        41,
+        0,
+        41
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+com\issuetracker\dao\IssueDAO.class
+com\issuetracker\model\IssueReport.class
+com\issuetracker\service\AssigneeService.class
+com\issuetracker\dao\AssigneeDAO.class
+com\issuetracker\service\IssueService.class
+com\issuetracker\dao\IssueDAOImpl.class
+com\issuetracker\model\Unit.class
+com\issuetracker\service\IssueServiceImpl.class
+com\issuetracker\service\AssigneeServiceImpl.class
+com\issuetracker\exception\IssueTrackerException.class
+com\issuetracker\model\Assignee.class
+com\issuetracker\userinterface\IssueTester.class
+com\issuetracker\model\Issue.class
+com\issuetracker\dao\AssigneeDAOImpl.class
+com\issuetracker\model\IssueStatus.class
+com\issuetracker\validator\Validator.class

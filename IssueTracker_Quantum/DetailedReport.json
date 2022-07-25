@@ -1,0 +1,941 @@
+{
+  "Structural": {
+    "Model": {
+      "Assignee": [
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC1-Assignee.getAssigneeEmail",
+          "testCaseName": "Verifying the structure of getAssigneeEmail",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getAssigneeEmail()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC2-Assignee.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC3-Assignee.setNumberOfIssuesActive",
+          "testCaseName": "Verifying the structure of setNumberOfIssuesActive",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setNumberOfIssuesActive(java.lang.Integer)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC4-Assignee.setEmployeeSince",
+          "testCaseName": "Verifying the structure of setEmployeeSince",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setEmployeeSince(java.time.LocalDate)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC5-Assignee.getWorkingUnit",
+          "testCaseName": "Verifying the structure of getWorkingUnit",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getWorkingUnit()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC6-Assignee.getAssigneeName",
+          "testCaseName": "Verifying the structure of getAssigneeName",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getAssigneeName()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC7-Assignee.setAssigneeEmail",
+          "testCaseName": "Verifying the structure of setAssigneeEmail",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setAssigneeEmail(java.lang.String)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC8-Assignee.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <{workingUnit=class com.issuetracker.model.Unit, assigneeName=class java.lang.String, numberOfIssuesActive=class java.lang.Integer, employeeSince=class java.time.LocalDate, assigneeEmail=class java.lang.String, assigneeId=class java.lang.String}> but was: <{}>"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC9-Assignee.setAssigneeName",
+          "testCaseName": "Verifying the structure of setAssigneeName",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setAssigneeName(java.lang.String)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC10-Assignee.getAssigneeId",
+          "testCaseName": "Verifying the structure of getAssigneeId",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getAssigneeId()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC11-Assignee.getEmployeeSince",
+          "testCaseName": "Verifying the structure of getEmployeeSince",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getEmployeeSince()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC12-Assignee.getNumberOfIssuesActive",
+          "testCaseName": "Verifying the structure of getNumberOfIssuesActive",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getNumberOfIssuesActive()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC13-Assignee.setAssigneeId",
+          "testCaseName": "Verifying the structure of setAssigneeId",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setAssigneeId(java.lang.String)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "Assignee",
+          "testCaseID": "STC14-Assignee.setWorkingUnit",
+          "testCaseName": "Verifying the structure of setWorkingUnit",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setWorkingUnit(com.issuetracker.model.Unit)"
+        }
+      ],
+      "IssueReport": [
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC1-IssueReport.getAssigneeEmail",
+          "testCaseName": "Verifying the structure of getAssigneeEmail",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.getAssigneeEmail()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC2-IssueReport.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.IssueStatus)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC3-IssueReport.setIssueDescription",
+          "testCaseName": "Verifying the structure of setIssueDescription",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.setIssueDescription(java.lang.String)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC4-IssueReport.getIssueId",
+          "testCaseName": "Verifying the structure of getIssueId",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.getIssueId()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC5-IssueReport.getIssueDescription",
+          "testCaseName": "Verifying the structure of getIssueDescription",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.getIssueDescription()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC6-IssueReport.setAssigneeEmail",
+          "testCaseName": "Verifying the structure of setAssigneeEmail",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.setAssigneeEmail(java.lang.String)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC7-IssueReport.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <{issueId=class java.lang.String, assigneeEmail=class java.lang.String, issueDescription=class java.lang.String, status=class com.issuetracker.model.IssueStatus}> but was: <{}>"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC8-IssueReport.setStatus",
+          "testCaseName": "Verifying the structure of setStatus",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.setStatus(com.issuetracker.model.IssueStatus)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC9-IssueReport.setIssueId",
+          "testCaseName": "Verifying the structure of setIssueId",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.setIssueId(java.lang.String)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueReport",
+          "testCaseID": "STC10-IssueReport.getStatus",
+          "testCaseName": "Verifying the structure of getStatus",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.getStatus()"
+        }
+      ],
+      "IssueStatus": [
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "IssueStatus",
+          "testCaseID": "STC1-IssueStatus.constants",
+          "testCaseName": "Verifying the structure of constants",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>"
+        }
+      ]
+    },
+    "Service": {
+      "AssigneeServiceImpl": [
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "AssigneeServiceImpl",
+          "testCaseID": "STC1-AssigneeServiceImpl.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "AssigneeServiceImpl",
+          "testCaseID": "STC2-AssigneeServiceImpl.updateActiveIssueCount",
+          "testCaseName": "Verifying the structure of updateActiveIssueCount",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "AssigneeServiceImpl",
+          "testCaseID": "STC3-AssigneeServiceImpl.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "AssigneeServiceImpl",
+          "testCaseID": "STC4-AssigneeServiceImpl.fetchAssignee",
+          "testCaseName": "Verifying the structure of fetchAssignee",
+          "result": "Pass"
+        }
+      ],
+      "IssueServiceImpl": [
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "STC1-IssueServiceImpl.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "STC2-IssueServiceImpl.reportAnIssue",
+          "testCaseName": "Verifying the structure of reportAnIssue",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "STC3-IssueServiceImpl.deleteIssues",
+          "testCaseName": "Verifying the structure of deleteIssues",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "STC4-IssueServiceImpl.updateStatus",
+          "testCaseName": "Verifying the structure of updateStatus",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "STC5-IssueServiceImpl.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "STC6-IssueServiceImpl.showIssues",
+          "testCaseName": "Verifying the structure of showIssues",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Exception": {
+      "IssueTrackerException": [
+        {
+          "cadre": "Structural",
+          "group": "Exception",
+          "testClass": "IssueTrackerException",
+          "testCaseID": "STC1-IssueTrackerException.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Exception",
+          "testClass": "IssueTrackerException",
+          "testCaseID": "STC2-IssueTrackerException.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC1-Validator.validate",
+          "testCaseName": "Verifying the structure of validate",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC2-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the structure of isValidIssueDescription",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC3-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the structure of isValidReportedOn",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC4-Validator.isValidIssueId",
+          "testCaseName": "Verifying the structure of isValidIssueId",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC5-Validator.isValidStatus",
+          "testCaseName": "Verifying the structure of isValidStatus",
+          "result": "Pass"
+        }
+      ]
+    }
+  },
+  "Logical": {
+    "Service": {
+      "AssigneeServiceImpl": [
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "AssigneeServiceImpl",
+          "testCaseID": "LTC1-AssigneeServiceImpl.updateActiveIssueCount",
+          "testCaseName": "Verifying the functionality of updateActiveIssueCount",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodError: 'void com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)'"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "AssigneeServiceImpl",
+          "testCaseID": "LTC2-AssigneeServiceImpl.fetchAssignee",
+          "testCaseName": "Verifying the functionality of fetchAssignee",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodError: 'void com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)'"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "AssigneeServiceImpl",
+          "testCaseID": "LTC3-AssigneeServiceImpl.updateActiveIssueCount",
+          "testCaseName": "Verifying the functionality of updateActiveIssueCount",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodError: 'void com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)'"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "AssigneeServiceImpl",
+          "testCaseID": "LTC4-AssigneeServiceImpl.fetchAssignee",
+          "testCaseName": "Verifying the functionality of fetchAssignee",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodError: 'void com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)'"
+        }
+      ],
+      "IssueServiceImpl": [
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC1-IssueServiceImpl.reportAnIssue",
+          "testCaseName": "Verifying the functionality of reportAnIssue",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: OPEN"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC2-IssueServiceImpl.reportAnIssue",
+          "testCaseName": "Verifying the functionality of reportAnIssue",
+          "testCaseDescription": "Expecting an exception Throw - 'An issue with the same ID already exists!'",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: IN_PROGRESS"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC3-IssueServiceImpl.updateStatus",
+          "testCaseName": "Verifying the functionality of updateStatus",
+          "testCaseDescription": "Expecting an exception Throw - 'There is no change in the issue status!'",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: IN_PROGRESS"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC4-IssueServiceImpl.deleteIssues",
+          "testCaseName": "Verifying the functionality of deleteIssues",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: CLOSED"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC5-IssueServiceImpl.updateStatus",
+          "testCaseName": "Verifying the functionality of updateStatus",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: RECALLED"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC6-IssueServiceImpl.updateStatus",
+          "testCaseName": "Verifying the functionality of updateStatus",
+          "testCaseDescription": "Expecting an exception Throw - 'An issue with the given ID is not found!'",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: RESOLVED"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC7-IssueServiceImpl.reportAnIssue",
+          "testCaseName": "Verifying the functionality of reportAnIssue",
+          "testCaseDescription": "Invocation of AssigneeService methods",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodError: 'java.lang.String com.issuetracker.model.Assignee.getAssigneeEmail()'"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC8-IssueServiceImpl.showIssues",
+          "testCaseName": "Verifying the functionality of showIssues",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: IN_PROGRESS"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC9-IssueServiceImpl.showIssues",
+          "testCaseName": "Verifying the functionality of showIssues",
+          "testCaseDescription": "Expecting an exception Throw - 'No issues are found for the requested criteria!'",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: IN_PROGRESS"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "IssueServiceImpl",
+          "testCaseID": "LTC10-IssueServiceImpl.updateStatus",
+          "testCaseName": "Verifying the functionality of updateStatus",
+          "testCaseDescription": "Expecting an exception Throw - 'The current issue status is incompatible for recall!'",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchFieldError: RECALLED"
+        }
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'true' for 'This is a sample description'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'true' for 'this is a sample description'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'true' for 'THIS IS A SAMPLE DESCRIPTION'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'true' for 'Description'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC5-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'true' for 'A'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC6-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'true' for 'Description which exactly fits the length criteria'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC7-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'false' for 'This is a sample description which is too long to be acceptable' | Issue description should be within 50 characters",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC8-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'false' for 'This is also a description!' | Issue description cannot contain any special characters",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC9-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'false' for 'We have 2 types of test case scenarios' | Issue description cannot have numeric values",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC10-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'false' for ' A description practising social distancing ' | Issue description cannot contain leading or trailing spaces",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC11-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'false' for 'A description  practising   social    distancing' | Each word in the issue description should be separated by a single space",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC12-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'false' for 'null' | Issue description cannot be 'null'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC13-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'false' for '' | Issue description cannot be an empty string",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC14-Validator.isValidIssueDescription",
+          "testCaseName": "Verifying the functionality of isValidIssueDescription",
+          "testCaseDescription": "Expecting to return 'false' for ' ' | Issue description cannot contain only spaces",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'true' for '2021-02-26'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'true' for '2021-02-25'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'true' for '2021-02-11'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'true' for '2021-01-27'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC5-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'true' for '2021-02-12'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC6-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'false' for 'null' | Date cannot be null",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC7-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'false' for '2021-02-27' | Date cannot be a future date",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC8-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'false' for '2021-03-28' | Date cannot be a future date",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC9-Validator.isValidReportedOn",
+          "testCaseName": "Verifying the functionality of isValidReportedOn",
+          "testCaseDescription": "Expecting to return 'false' for '2021-03-12' | Date cannot be a future date",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'true' for 'MTI-I-001-LS'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'true' for 'MTI-I-001-MS'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'true' for 'MTI-I-001-HS'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'true' for 'MTI-I-234-MS'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC5-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'true' for 'MTI-I-999-MS'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC6-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MI-I-234-MS' | First part should be 'MTI'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC7-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTI-Issue-234-MS' | Second part should be 'I'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC8-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTI-I-000-LS' | Third part cannot be 000",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC9-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTI-I-23-HS' | Third part should contain three digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC10-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTI-I-234-S' | Fourth should be 'LS' or 'MS'or 'HS'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC11-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'I-234-HS' | The Issue Id should have four parts",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC12-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTI-234-LS' | The Issue Id should have four parts",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC13-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTI-I-MS' | The Issue Id should have four parts",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC14-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTI-I-234' | The Issue Id should have four parts",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC15-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTII-234-MS' | The Issue Id should have four parts",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC16-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'MTII234MS' | The Issue Id should have four parts,seperated by '-'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC17-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for '' | Issue Id cannot be an empty string",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC18-Validator.isValidIssueId",
+          "testCaseName": "Verifying the functionality of isValidIssueId",
+          "testCaseDescription": "Expecting to return 'false' for 'null' | Issue Id cannot be 'null'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        }
+      ]
+    }
+  }
+}

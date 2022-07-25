@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.AssigneeVerification
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 13, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.verification.structural.AssigneeVerification
+getAssigneeEmail  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getAssigneeEmail()
+	at com.verification.structural.AssigneeVerification.getAssigneeEmail(AssigneeVerification.java:94)
+
+constructor  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)
+	at com.verification.structural.AssigneeVerification.constructor(AssigneeVerification.java:48)
+
+setNumberOfIssuesActive  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setNumberOfIssuesActive(java.lang.Integer)
+	at com.verification.structural.AssigneeVerification.setNumberOfIssuesActive(AssigneeVerification.java:153)
+
+setEmployeeSince  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setEmployeeSince(java.time.LocalDate)
+	at com.verification.structural.AssigneeVerification.setEmployeeSince(AssigneeVerification.java:136)
+
+getWorkingUnit  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getWorkingUnit()
+	at com.verification.structural.AssigneeVerification.getWorkingUnit(AssigneeVerification.java:111)
+
+getAssigneeName  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getAssigneeName()
+	at com.verification.structural.AssigneeVerification.getAssigneeName(AssigneeVerification.java:77)
+
+setAssigneeEmail  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setAssigneeEmail(java.lang.String)
+	at com.verification.structural.AssigneeVerification.setAssigneeEmail(AssigneeVerification.java:102)
+
+attributes  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{workingUnit=class com.issuetracker.model.Unit, assigneeName=class java.lang.String, numberOfIssuesActive=class java.lang.Integer, employeeSince=class java.time.LocalDate, assigneeEmail=class java.lang.String, assigneeId=class java.lang.String}> but was: <{}>
+	at com.verification.structural.AssigneeVerification.attributes(AssigneeVerification.java:38)
+
+setAssigneeName  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setAssigneeName(java.lang.String)
+	at com.verification.structural.AssigneeVerification.setAssigneeName(AssigneeVerification.java:85)
+
+getAssigneeId  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getAssigneeId()
+	at com.verification.structural.AssigneeVerification.getAssigneeId(AssigneeVerification.java:60)
+
+getEmployeeSince  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getEmployeeSince()
+	at com.verification.structural.AssigneeVerification.getEmployeeSince(AssigneeVerification.java:128)
+
+getNumberOfIssuesActive  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.getNumberOfIssuesActive()
+	at com.verification.structural.AssigneeVerification.getNumberOfIssuesActive(AssigneeVerification.java:145)
+
+setAssigneeId  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setAssigneeId(java.lang.String)
+	at com.verification.structural.AssigneeVerification.setAssigneeId(AssigneeVerification.java:68)
+
+setWorkingUnit  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.Assignee.setWorkingUnit(com.issuetracker.model.Unit)
+	at com.verification.structural.AssigneeVerification.setWorkingUnit(AssigneeVerification.java:119)
+

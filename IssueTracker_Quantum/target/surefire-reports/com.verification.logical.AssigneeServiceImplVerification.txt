@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.AssigneeServiceImplVerification
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.668 s <<< FAILURE! - in com.verification.logical.AssigneeServiceImplVerification
+updateActiveIssueCount$Increment  Time elapsed: 1.616 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)'
+	at com.verification.logical.AssigneeServiceImplVerification.updateActiveIssueCount$Increment(AssigneeServiceImplVerification.java:88)
+
+fetchAssignee$NoAssigneeAvailable  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)'
+	at com.verification.logical.AssigneeServiceImplVerification.fetchAssignee$NoAssigneeAvailable(AssigneeServiceImplVerification.java:74)
+
+updateActiveIssueCount$Decrement  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)'
+	at com.verification.logical.AssigneeServiceImplVerification.updateActiveIssueCount$Decrement(AssigneeServiceImplVerification.java:109)
+
+fetchAssignee  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.issuetracker.model.Assignee.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.Unit, java.time.LocalDate, java.lang.Integer)'
+	at com.verification.logical.AssigneeServiceImplVerification.fetchAssignee(AssigneeServiceImplVerification.java:39)
+

@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.IssueReportVerification
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 9, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.verification.structural.IssueReportVerification
+getAssigneeEmail  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.getAssigneeEmail()
+	at com.verification.structural.IssueReportVerification.getAssigneeEmail(IssueReportVerification.java:74)
+
+constructor  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.<init>(java.lang.String, java.lang.String, java.lang.String, com.issuetracker.model.IssueStatus)
+	at com.verification.structural.IssueReportVerification.constructor(IssueReportVerification.java:47)
+
+setIssueDescription  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.setIssueDescription(java.lang.String)
+	at com.verification.structural.IssueReportVerification.setIssueDescription(IssueReportVerification.java:99)
+
+getIssueId  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.getIssueId()
+	at com.verification.structural.IssueReportVerification.getIssueId(IssueReportVerification.java:57)
+
+getIssueDescription  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.getIssueDescription()
+	at com.verification.structural.IssueReportVerification.getIssueDescription(IssueReportVerification.java:91)
+
+setAssigneeEmail  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.setAssigneeEmail(java.lang.String)
+	at com.verification.structural.IssueReportVerification.setAssigneeEmail(IssueReportVerification.java:82)
+
+attributes  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{issueId=class java.lang.String, assigneeEmail=class java.lang.String, issueDescription=class java.lang.String, status=class com.issuetracker.model.IssueStatus}> but was: <{}>
+	at com.verification.structural.IssueReportVerification.attributes(IssueReportVerification.java:37)
+
+setStatus  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.setStatus(com.issuetracker.model.IssueStatus)
+	at com.verification.structural.IssueReportVerification.setStatus(IssueReportVerification.java:116)
+
+setIssueId  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.setIssueId(java.lang.String)
+	at com.verification.structural.IssueReportVerification.setIssueId(IssueReportVerification.java:65)
+
+getStatus  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.issuetracker.model.IssueReport.getStatus()
+	at com.verification.structural.IssueReportVerification.getStatus(IssueReportVerification.java:108)
+

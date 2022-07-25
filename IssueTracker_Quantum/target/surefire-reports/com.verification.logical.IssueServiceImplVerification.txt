@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.IssueServiceImplVerification
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.488 s <<< FAILURE! - in com.verification.logical.IssueServiceImplVerification
+reportAnIssue  Time elapsed: 0.165 s  <<< ERROR!
+java.lang.NoSuchFieldError: OPEN
+	at com.verification.logical.IssueServiceImplVerification.reportAnIssue(IssueServiceImplVerification.java:62)
+
+reportAnIssue$DuplicateIssueIdException  Time elapsed: 0.016 s  <<< ERROR!
+java.lang.NoSuchFieldError: IN_PROGRESS
+	at com.verification.logical.IssueServiceImplVerification.reportAnIssue$DuplicateIssueIdException(IssueServiceImplVerification.java:101)
+
+updateStatus$NoStatusChangeException  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NoSuchFieldError: IN_PROGRESS
+	at com.verification.logical.IssueServiceImplVerification.updateStatus$NoStatusChangeException(IssueServiceImplVerification.java:151)
+
+deleteIssues  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NoSuchFieldError: CLOSED
+	at com.verification.logical.IssueServiceImplVerification.deleteIssues(IssueServiceImplVerification.java:274)
+
+updateStatus  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NoSuchFieldError: RECALLED
+	at com.verification.logical.IssueServiceImplVerification.updateStatus(IssueServiceImplVerification.java:117)
+
+updateStatus$IssueNotFoundException  Time elapsed: 0.012 s  <<< ERROR!
+java.lang.NoSuchFieldError: RESOLVED
+	at com.verification.logical.IssueServiceImplVerification.updateStatus$IssueNotFoundException(IssueServiceImplVerification.java:134)
+
+reportAnIssue$CallingAssigneeServiceMethods  Time elapsed: 0.211 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'java.lang.String com.issuetracker.model.Assignee.getAssigneeEmail()'
+	at com.verification.logical.IssueServiceImplVerification.reportAnIssue$CallingAssigneeServiceMethods(IssueServiceImplVerification.java:83)
+
+showIssues  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchFieldError: IN_PROGRESS
+	at com.verification.logical.IssueServiceImplVerification.showIssues(IssueServiceImplVerification.java:196)
+
+showIssues$IssueNotFoundException  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NoSuchFieldError: IN_PROGRESS
+	at com.verification.logical.IssueServiceImplVerification.showIssues$IssueNotFoundException(IssueServiceImplVerification.java:245)
+
+updateStatus$IncompatibleStatusException  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchFieldError: RECALLED
+	at com.verification.logical.IssueServiceImplVerification.updateStatus$IncompatibleStatusException(IssueServiceImplVerification.java:173)
+
