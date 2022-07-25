@@ -1,0 +1,164 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.ValidatorVerification
+-------------------------------------------------------------------------------
+Tests run: 37, Failures: 37, Errors: 0, Skipped: 0, Time elapsed: 0.258 s <<< FAILURE! - in com.verification.logical.ValidatorVerification
+isValidContactNumber{Long, Boolean, String}[1]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[2]  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[3]  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[4]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[5]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[6]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[7]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[8]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[9]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[10]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[11]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidContactNumber{Long, Boolean, String}[12]  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidContactNumber(ValidatorVerification.java:164)
+
+isValidDateOfJoining{LocalDate, Boolean, String}[1]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidDateOfJoining(ValidatorVerification.java:142)
+
+isValidDateOfJoining{LocalDate, Boolean, String}[2]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidDateOfJoining(ValidatorVerification.java:142)
+
+isValidDateOfJoining{LocalDate, Boolean, String}[3]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidDateOfJoining(ValidatorVerification.java:142)
+
+isValidDateOfJoining{LocalDate, Boolean, String}[4]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidDateOfJoining(ValidatorVerification.java:142)
+
+isValidDateOfJoining{LocalDate, Boolean, String}[5]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidDateOfJoining(ValidatorVerification.java:142)
+
+isValidDateOfJoining{LocalDate, Boolean, String}[6]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidDateOfJoining(ValidatorVerification.java:142)
+
+isValidDateOfJoining{LocalDate, Boolean, String}[7]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidDateOfJoining(ValidatorVerification.java:142)
+
+isValidDateOfJoining{LocalDate, Boolean, String}[8]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidDateOfJoining(ValidatorVerification.java:142)
+
+isValidTraineeName{String, Boolean, String}[1]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidTraineeName(ValidatorVerification.java:132)
+
+isValidTraineeName{String, Boolean, String}[2]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidTraineeName(ValidatorVerification.java:132)
+
+isValidTraineeName{String, Boolean, String}[3]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidTraineeName(ValidatorVerification.java:132)
+
+isValidTraineeName{String, Boolean, String}[4]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidTraineeName(ValidatorVerification.java:132)
+
+validate{Trainee, String}[1]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infytraining.exception.InfyTrainingException> but was: <java.lang.NullPointerException>
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:119)
+Caused by: java.lang.NullPointerException
+	at com.verification.logical.ValidatorVerification.lambda$validate$0(ValidatorVerification.java:120)
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:119)
+
+validate{Trainee, String}[2]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infytraining.exception.InfyTrainingException> but was: <java.lang.NullPointerException>
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:119)
+Caused by: java.lang.NullPointerException
+	at com.verification.logical.ValidatorVerification.lambda$validate$0(ValidatorVerification.java:120)
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:119)
+
+validate{Trainee, String}[3]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infytraining.exception.InfyTrainingException> but was: <java.lang.NullPointerException>
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:119)
+Caused by: java.lang.NullPointerException
+	at com.verification.logical.ValidatorVerification.lambda$validate$0(ValidatorVerification.java:120)
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:119)
+
+validate{Trainee, String}[4]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infytraining.exception.InfyTrainingException> but was: <java.lang.NullPointerException>
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:119)
+Caused by: java.lang.NullPointerException
+	at com.verification.logical.ValidatorVerification.lambda$validate$0(ValidatorVerification.java:120)
+	at com.verification.logical.ValidatorVerification.validate(ValidatorVerification.java:119)
+
+isValidIdProof{String, Boolean, String}[1]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+
+isValidIdProof{String, Boolean, String}[2]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+
+isValidIdProof{String, Boolean, String}[3]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+
+isValidIdProof{String, Boolean, String}[4]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+
+isValidIdProof{String, Boolean, String}[5]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+
+isValidIdProof{String, Boolean, String}[6]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+
+isValidIdProof{String, Boolean, String}[7]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+
+isValidIdProof{String, Boolean, String}[8]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+
+isValidIdProof{String, Boolean, String}[9]  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <null>
+	at com.verification.logical.ValidatorVerification.isValidIdProof(ValidatorVerification.java:153)
+

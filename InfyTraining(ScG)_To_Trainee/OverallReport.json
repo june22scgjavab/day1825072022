@@ -1,0 +1,78 @@
+{
+  "Code Analysis": {
+    "PMD": {
+      "PMD": [
+        1,
+        1,
+        0
+      ]
+    }
+  },
+  "Structural": {
+    "JUnit": {
+      "InfyTrainingTest": [
+        3,
+        1,
+        2
+      ]
+    },
+    "Model": {
+      "TraineeReport": [
+        7,
+        0,
+        7
+      ]
+    },
+    "Service": {
+      "InfyTrainingServiceImpl": [
+        5,
+        5,
+        0
+      ]
+    },
+    "Exception": {
+      "InfyTrainingException": [
+        2,
+        2,
+        0
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        5,
+        5,
+        0
+      ]
+    }
+  },
+  "Logical": {
+    "Logging": {
+      "Logging": [
+        3,
+        0,
+        3
+      ]
+    },
+    "JUnit": {
+      "InfyTrainingServiceTest": [
+        4,
+        0,
+        4
+      ]
+    },
+    "Service": {
+      "InfyTrainingServiceImpl": [
+        5,
+        2,
+        3
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        37,
+        0,
+        37
+      ]
+    }
+  }
+}

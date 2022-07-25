@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.InfyTrainingServiceTestVerification
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 1.369 s <<< FAILURE! - in com.verification.logical.InfyTrainingServiceTestVerification
+generateTraineeReportNoRecordsFoundTest$UsageOfAssertThrows  Time elapsed: 1.347 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+infyTrainingService.generateTraineeReport(
+    <any>
+);
+-> at com.verification.logical.InfyTrainingServiceTestVerification.generateTraineeReportNoRecordsFoundTest$UsageOfAssertThrows(InfyTrainingServiceTestVerification.java:63)
+Actually, there were zero interactions with this mock.
+
+	at com.verification.logical.InfyTrainingServiceTestVerification.generateTraineeReportNoRecordsFoundTest$UsageOfAssertThrows(InfyTrainingServiceTestVerification.java:63)
+
+addTraineeInvalidDateOfJoiningTest$AssertingExceptionMessage  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected org.opentest4j.AssertionFailedError to be thrown, but nothing was thrown.
+	at com.verification.logical.InfyTrainingServiceTestVerification.addTraineeInvalidDateOfJoiningTest$AssertingExceptionMessage(InfyTrainingServiceTestVerification.java:50)
+
+addTraineeInvalidDateOfJoiningTest$UsageOfAssertThrows  Time elapsed: 0.006 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+infyTrainingService.addTrainee(<any>);
+-> at com.verification.logical.InfyTrainingServiceTestVerification.addTraineeInvalidDateOfJoiningTest$UsageOfAssertThrows(InfyTrainingServiceTestVerification.java:41)
+Actually, there were zero interactions with this mock.
+
+	at com.verification.logical.InfyTrainingServiceTestVerification.addTraineeInvalidDateOfJoiningTest$UsageOfAssertThrows(InfyTrainingServiceTestVerification.java:41)
+
+generateTraineeReportNoRecordsFoundTest$AssertingExceptionMessage  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected org.opentest4j.AssertionFailedError to be thrown, but nothing was thrown.
+	at com.verification.logical.InfyTrainingServiceTestVerification.generateTraineeReportNoRecordsFoundTest$AssertingExceptionMessage(InfyTrainingServiceTestVerification.java:72)
+

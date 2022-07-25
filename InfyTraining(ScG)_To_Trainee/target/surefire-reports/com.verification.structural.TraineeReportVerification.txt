@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.structural.TraineeReportVerification
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 6, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.verification.structural.TraineeReportVerification
+getContactNumber  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.getContactNumber()
+	at com.verification.structural.TraineeReportVerification.getContactNumber(TraineeReportVerification.java:66)
+
+getDateOfJoining  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.getDateOfJoining()
+	at com.verification.structural.TraineeReportVerification.getDateOfJoining(TraineeReportVerification.java:82)
+
+setTraineeName  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.setTraineeName(java.lang.String)
+	at com.verification.structural.TraineeReportVerification.setTraineeName(TraineeReportVerification.java:57)
+
+attributes  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <{dateOfJoining=class java.time.LocalDate, contactNumber=class java.lang.Long, traineeName=class java.lang.String}> but was: <{}>
+	at com.verification.structural.TraineeReportVerification.attributes(TraineeReportVerification.java:38)
+
+getTraineeName  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.getTraineeName()
+	at com.verification.structural.TraineeReportVerification.getTraineeName(TraineeReportVerification.java:49)
+
+setContactNumber  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.setContactNumber(java.lang.Long)
+	at com.verification.structural.TraineeReportVerification.setContactNumber(TraineeReportVerification.java:74)
+
+setDateOfJoining  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.setDateOfJoining(java.time.LocalDate)
+	at com.verification.structural.TraineeReportVerification.setDateOfJoining(TraineeReportVerification.java:89)
+

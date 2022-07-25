@@ -1,0 +1,704 @@
+{
+  "Code Analysis": {
+    "PMD": {
+      "PMD": [
+        {
+          "cadre": "Code Analysis",
+          "group": "PMD",
+          "testClass": "PMD",
+          "testCaseID": "CATC1-PMD.codingStandards",
+          "testCaseName": "Verifying the code for adherence to coding standards",
+          "result": "Pass"
+        }
+      ]
+    }
+  },
+  "Structural": {
+    "JUnit": {
+      "InfyTrainingTest": [
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "InfyTrainingTest",
+          "testCaseID": "STC1-InfyTrainingTest.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "InfyTrainingTest",
+          "testCaseID": "STC2-InfyTrainingTest.generateTraineeReportNoRecordsFoundTest",
+          "testCaseName": "Verifying the structure of generateTraineeReportNoRecordsFoundTest",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: not <null>"
+        },
+        {
+          "cadre": "Structural",
+          "group": "JUnit",
+          "testClass": "InfyTrainingTest",
+          "testCaseID": "STC3-InfyTrainingTest.addTraineeInvalidDateOfJoiningTest",
+          "testCaseName": "Verifying the structure of addTraineeInvalidDateOfJoiningTest",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: not <null>"
+        }
+      ]
+    },
+    "Model": {
+      "TraineeReport": [
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "TraineeReport",
+          "testCaseID": "STC1-TraineeReport.getContactNumber",
+          "testCaseName": "Verifying the structure of getContactNumber",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.getContactNumber()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "TraineeReport",
+          "testCaseID": "STC2-TraineeReport.getDateOfJoining",
+          "testCaseName": "Verifying the structure of getDateOfJoining",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.getDateOfJoining()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "TraineeReport",
+          "testCaseID": "STC3-TraineeReport.setTraineeName",
+          "testCaseName": "Verifying the structure of setTraineeName",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.setTraineeName(java.lang.String)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "TraineeReport",
+          "testCaseID": "STC4-TraineeReport.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <{dateOfJoining=class java.time.LocalDate, contactNumber=class java.lang.Long, traineeName=class java.lang.String}> but was: <{}>"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "TraineeReport",
+          "testCaseID": "STC5-TraineeReport.getTraineeName",
+          "testCaseName": "Verifying the structure of getTraineeName",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.getTraineeName()"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "TraineeReport",
+          "testCaseID": "STC6-TraineeReport.setContactNumber",
+          "testCaseName": "Verifying the structure of setContactNumber",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.setContactNumber(java.lang.Long)"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Model",
+          "testClass": "TraineeReport",
+          "testCaseID": "STC7-TraineeReport.setDateOfJoining",
+          "testCaseName": "Verifying the structure of setDateOfJoining",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodException: com.infytraining.model.TraineeReport.setDateOfJoining(java.time.LocalDate)"
+        }
+      ]
+    },
+    "Service": {
+      "InfyTrainingServiceImpl": [
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "STC1-InfyTrainingServiceImpl.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "STC2-InfyTrainingServiceImpl.generateTraineeReport",
+          "testCaseName": "Verifying the structure of generateTraineeReport",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "STC3-InfyTrainingServiceImpl.attributes",
+          "testCaseName": "Verifying the structure of attributes",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "STC4-InfyTrainingServiceImpl.addTrainee",
+          "testCaseName": "Verifying the structure of addTrainee",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "STC5-InfyTrainingServiceImpl.generateMailId",
+          "testCaseName": "Verifying the structure of generateMailId",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Exception": {
+      "InfyTrainingException": [
+        {
+          "cadre": "Structural",
+          "group": "Exception",
+          "testClass": "InfyTrainingException",
+          "testCaseID": "STC1-InfyTrainingException.inheritance",
+          "testCaseName": "Verifying the structure of inheritance",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Exception",
+          "testClass": "InfyTrainingException",
+          "testCaseID": "STC2-InfyTrainingException.constructor",
+          "testCaseName": "Verifying the structure of constructor",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC1-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the structure of isValidContactNumber",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC2-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the structure of isValidDateOfJoining",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC3-Validator.isValidTraineeName",
+          "testCaseName": "Verifying the structure of isValidTraineeName",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC4-Validator.validate",
+          "testCaseName": "Verifying the structure of validate",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Structural",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "STC5-Validator.isValidIdProof",
+          "testCaseName": "Verifying the structure of isValidIdProof",
+          "result": "Pass"
+        }
+      ]
+    }
+  },
+  "Logical": {
+    "Logging": {
+      "Logging": [
+        {
+          "cadre": "Logical",
+          "group": "Logging",
+          "testClass": "Logging",
+          "testCaseID": "LTC1-Logging.logging",
+          "testCaseName": "Verifying the functionality of logging",
+          "testCaseDescription": "Expecting exact exceptions to be logged in Validator",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: not equal but was: <0>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Logging",
+          "testClass": "Logging",
+          "testCaseID": "LTC2-Logging.logging",
+          "testCaseName": "Verifying the functionality of logging",
+          "testCaseDescription": "Expecting Validator exceptions to be not logged in InfyTrainingServiceImpl",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: not equal but was: <0>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Logging",
+          "testClass": "Logging",
+          "testCaseID": "LTC3-Logging.logging",
+          "testCaseName": "Verifying the functionality of logging",
+          "testCaseDescription": "Expecting exact exceptions to be logged in InfyTrainingServiceImpl",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <false>"
+        }
+      ]
+    },
+    "JUnit": {
+      "InfyTrainingServiceTest": [
+        {
+          "cadre": "Logical",
+          "group": "JUnit",
+          "testClass": "InfyTrainingServiceTest",
+          "testCaseID": "LTC1-InfyTrainingServiceTest.generateTraineeReportNoRecordsFoundTest",
+          "testCaseName": "Verifying the functionality of generateTraineeReportNoRecordsFoundTest",
+          "result": "Fail",
+          "reasonForFailure": "Wanted but not invoked:\ninfyTrainingService.generateTraineeReport(\n    <any>\n);\n-> at com.verification.logical.InfyTrainingServiceTestVerification.generateTraineeReportNoRecordsFoundTest$UsageOfAssertThrows(InfyTrainingServiceTestVerification.java:63)\nActually, there were zero interactions with this mock.\n"
+        },
+        {
+          "cadre": "Logical",
+          "group": "JUnit",
+          "testClass": "InfyTrainingServiceTest",
+          "testCaseID": "LTC2-InfyTrainingServiceTest.addTraineeInvalidDateOfJoiningTest",
+          "testCaseName": "Verifying the functionality of addTraineeInvalidDateOfJoiningTest",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected org.opentest4j.AssertionFailedError to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "JUnit",
+          "testClass": "InfyTrainingServiceTest",
+          "testCaseID": "LTC3-InfyTrainingServiceTest.addTraineeInvalidDateOfJoiningTest",
+          "testCaseName": "Verifying the functionality of addTraineeInvalidDateOfJoiningTest",
+          "result": "Fail",
+          "reasonForFailure": "Wanted but not invoked:\ninfyTrainingService.addTrainee(<any>);\n-> at com.verification.logical.InfyTrainingServiceTestVerification.addTraineeInvalidDateOfJoiningTest$UsageOfAssertThrows(InfyTrainingServiceTestVerification.java:41)\nActually, there were zero interactions with this mock.\n"
+        },
+        {
+          "cadre": "Logical",
+          "group": "JUnit",
+          "testClass": "InfyTrainingServiceTest",
+          "testCaseID": "LTC4-InfyTrainingServiceTest.generateTraineeReportNoRecordsFoundTest",
+          "testCaseName": "Verifying the functionality of generateTraineeReportNoRecordsFoundTest",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected org.opentest4j.AssertionFailedError to be thrown, but nothing was thrown."
+        }
+      ]
+    },
+    "Service": {
+      "InfyTrainingServiceImpl": [
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "LTC1-InfyTrainingServiceImpl.generateTraineeReport",
+          "testCaseName": "Verifying the functionality of generateTraineeReport",
+          "testCaseDescription": "Expecting an exception throw - 'Service.NO_RECORDS_FOUND'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Expected com.infytraining.exception.InfyTrainingException to be thrown, but nothing was thrown."
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "LTC2-InfyTrainingServiceImpl.generateTraineeReport",
+          "testCaseName": "Verifying the functionality of generateTraineeReport",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NoSuchMethodError: 'void com.infytraining.model.TraineeReport.<init>(java.lang.String, java.time.LocalDate, java.lang.Long)'"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "LTC3-InfyTrainingServiceImpl.addTrainee",
+          "testCaseName": "Verifying the functionality of addTrainee",
+          "result": "Fail",
+          "reasonForFailure": "java.lang.NullPointerException"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "LTC1-InfyTrainingServiceImpl.generateMailId",
+          "testCaseName": "Verifying the functionality of generateMailId for 'Akash Modi' -> 'akash_modi'",
+          "result": "Pass"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Service",
+          "testClass": "InfyTrainingServiceImpl",
+          "testCaseID": "LTC2-InfyTrainingServiceImpl.generateMailId",
+          "testCaseName": "Verifying the functionality of generateMailId for 'Neerav Sodhi' -> 'neerav_sodhi'",
+          "result": "Pass"
+        }
+      ]
+    },
+    "Validator": {
+      "Validator": [
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '1234567890' to be 'false'",
+          "testCaseDescription": "Contact number starts with 1",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '62345678' to be 'false'",
+          "testCaseDescription": "Contact Number has Less than 10 digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '82345678123456789' to be 'false'",
+          "testCaseDescription": "Contact Number has More than 10 digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '9999999999' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC5-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '234567890' to be 'false'",
+          "testCaseDescription": "Contact number starts with 2",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC6-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '334567890' to be 'false'",
+          "testCaseDescription": "Contact number starts with 3",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC7-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '4234567890' to be 'false'",
+          "testCaseDescription": "Contact number starts with 4",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC8-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '5234567890' to be 'false'",
+          "testCaseDescription": "Contact number starts with 5",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC9-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '6958999999' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC10-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '7994969895' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC11-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '8999996548' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC12-Validator.isValidContactNumber",
+          "testCaseName": "Verifying the functionality of isValidContactNumber for '9997981993' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the functionality of isValidDateOfJoining for '2021-02-16' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the functionality of isValidDateOfJoining for '2021-02-17' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the functionality of isValidDateOfJoining for '2021-02-18' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the functionality of isValidDateOfJoining for '2021-02-25' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC5-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the functionality of isValidDateOfJoining for '2021-02-14' to be 'false'",
+          "testCaseDescription": "Date is not within the specified range",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC6-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the functionality of isValidDateOfJoining for '2021-02-26' to be 'false'",
+          "testCaseDescription": "Date is not within the specified range",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC7-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the functionality of isValidDateOfJoining for '2021-03-08' to be 'false'",
+          "testCaseDescription": "Date is not within the specified range",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC8-Validator.isValidDateOfJoining",
+          "testCaseName": "Verifying the functionality of isValidDateOfJoining for '2021-02-05' to be 'false'",
+          "testCaseDescription": "Date is not within the specified range",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidTraineeName",
+          "testCaseName": "Verifying the functionality of isValidTraineeName for 'Trainee Name' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidTraineeName",
+          "testCaseName": "Verifying the functionality of isValidTraineeName for ' Trainee Name' to be 'false'",
+          "testCaseDescription": "Trainee Name starts with a space",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidTraineeName",
+          "testCaseName": "Verifying the functionality of isValidTraineeName for 'Trainee Name55' to be 'false'",
+          "testCaseDescription": "Trainee Name contain digits",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidTraineeName",
+          "testCaseName": "Verifying the functionality of isValidTraineeName for 'trainee name' to be 'false'",
+          "testCaseDescription": "Brand first character of each word is not in Upper Case",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Validator.INVALID_TRAINEENAME'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infytraining.exception.InfyTrainingException> but was: <java.lang.NullPointerException>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Validator.INVALID_DATEOFJOINING'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infytraining.exception.InfyTrainingException> but was: <java.lang.NullPointerException>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Validator.INVALID_IDPROOF'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infytraining.exception.InfyTrainingException> but was: <java.lang.NullPointerException>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.validate",
+          "testCaseName": "Verifying the functionality of validate",
+          "testCaseDescription": "Expecting an exception throw - 'Validator.INVALID_CONTACTNUMBER'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.infytraining.exception.InfyTrainingException> but was: <java.lang.NullPointerException>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC1-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'Passport' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC2-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'Aadhar' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC3-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'Pan Card' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC4-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'passport' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC5-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'pan card' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC6-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'aadhar' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC7-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'pan card' to be 'true'",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <true> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC8-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'Electric Bill' to be 'false'",
+          "testCaseDescription": "Not a valid proof",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        },
+        {
+          "cadre": "Logical",
+          "group": "Validator",
+          "testClass": "Validator",
+          "testCaseID": "LTC9-Validator.isValidIdProof",
+          "testCaseName": "Verifying the functionality of isValidIdProof for 'electric bill' to be 'false'",
+          "testCaseDescription": "Not a valid proof",
+          "result": "Fail",
+          "reasonForFailure": "org.opentest4j.AssertionFailedError: expected: <false> but was: <null>"
+        }
+      ]
+    }
+  }
+}

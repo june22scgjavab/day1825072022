@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.InfyTrainingServiceImplVerification
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.338 s <<< FAILURE! - in com.verification.logical.InfyTrainingServiceImplVerification
+generateTraineeReport$NoRecordsFound  Time elapsed: 0.038 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected com.infytraining.exception.InfyTrainingException to be thrown, but nothing was thrown.
+	at com.verification.logical.InfyTrainingServiceImplVerification.generateTraineeReport$NoRecordsFound(InfyTrainingServiceImplVerification.java:84)
+
+generateTraineeReport  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.NoSuchMethodError: 'void com.infytraining.model.TraineeReport.<init>(java.lang.String, java.time.LocalDate, java.lang.Long)'
+	at com.verification.logical.InfyTrainingServiceImplVerification.generateTraineeReport(InfyTrainingServiceImplVerification.java:62)
+
+addTrainee  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.verification.logical.InfyTrainingServiceImplVerification.addTrainee(InfyTrainingServiceImplVerification.java:38)
+

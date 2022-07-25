@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.verification.logical.PMDVerification
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.211 s <<< FAILURE! - in com.verification.logical.PMDVerification
+analyseCode  Time elapsed: 3.21 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 3 files contain violation(s)! File Name: InfyTrainingServiceTest.java - UnusedImports : Avoid unused imports such as 'com.infytraining.service.InfyTrainingServiceImpl' - UnusedPrivateField : Avoid unused private fields such as 'infyTrainingService'. | File Name: InfyTrainingTester.java - UnusedLocalVariable : Avoid unused local variables such as 'report'. | File Name: InfyTrainingServiceImpl.java - UnusedImports : Avoid unused imports such as 'java.util.ArrayList' - UnusedImports : Avoid unused imports such as 'org.apache.commons.logging.LogFactory' - UnusedImports : Avoid unused imports such as 'com.infytraining.dao.InfyTrainingDAOImpl' | ==> expected: <true> but was: <false>
+	at com.verification.logical.PMDVerification.analyseCode(PMDVerification.java:54)
+
